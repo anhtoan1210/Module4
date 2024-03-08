@@ -37,7 +37,7 @@ public class ProductController {
                                 RedirectAttributes redirectAttributes) {
         boolean productNew = productService.add(product);
         if (!productNew) {
-            redirectAttributes.addFlashAttribute("msg", "Sản phẩm đã tồn tại");
+            redirectAttributes.addFlashAttribute("msg", "Sản phẩm đã tồn tại!");
         } else {
             redirectAttributes.addFlashAttribute("msg", "Thêm mới thành công");
         }
