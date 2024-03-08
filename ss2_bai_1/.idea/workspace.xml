@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3cdea61e-9601-49f1-9e8c-bb5bc9829128" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai_tap_9/.idea/bai_tap_9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_tap_9/.idea/bai_tap_9.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai_tap_9/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_tap_9/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai_tap_mvc_bai_11/src/main/java/com/example/bai_tap_mvc_bai_11/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_tap_mvc_bai_11/src/main/java/com/example/bai_tap_mvc_bai_11/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai_tap_mvc_bai_11/src/main/java/com/example/bai_tap_mvc_bai_11/repository/impl/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_tap_mvc_bai_11/src/main/java/com/example/bai_tap_mvc_bai_11/repository/impl/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai_tap_mvc_bai_11/src/main/webapp/view/product/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_tap_mvc_bai_11/src/main/webapp/view/product/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai_tap_mvc_bai_11/src/main/webapp/view/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_tap_mvc_bai_11/src/main/webapp/view/product/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luyen_tap/src/main/java/org/example/luyen_tap/repository/BaiHocRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luyen_tap/src/main/java/org/example/luyen_tap/repository/BaiHocRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luyen_tap/src/main/java/org/example/luyen_tap/repository/BaseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luyen_tap/src/main/java/org/example/luyen_tap/repository/BaseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luyen_tap/src/main/java/org/example/luyen_tap/repository/IBaiHocRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luyen_tap/src/main/java/org/example/luyen_tap/repository/IBaiHocRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luyen_tap/src/main/java/org/example/luyen_tap/service/BaiHocService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luyen_tap/src/main/java/org/example/luyen_tap/service/BaiHocService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luyen_tap/src/main/java/org/example/luyen_tap/service/IBaiHocService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luyen_tap/src/main/java/org/example/luyen_tap/service/IBaiHocService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luyen_tap/src/main/webapp/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../luyen_tap/src/main/webapp/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luyen_tap/src/main/webapp/display.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../luyen_tap/src/main/webapp/display.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luyen_tap/src/main/webapp/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../luyen_tap/src/main/webapp/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/src/main/java/org/example/ss9/service/DiscountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/src/main/java/org/example/ss9/service/DiscountServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/src/main/java/org/example/ss9/service/IDiscountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/src/main/java/org/example/ss9/service/IDiscountServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2dOljp1pjbASV43uhiaBCatk4R9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.841" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.841" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="openjdk-21" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="29ba257c-0bb6-43cb-a8ee-c4f88d9db9d7" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63064" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cdea61e-9601-49f1-9e8c-bb5bc9829128" name="Changes" comment="" />
+      <created>1709887151880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709887151880</updated>
+      <workItem from="1709887152999" duration="154000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
