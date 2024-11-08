@@ -8,29 +8,56 @@
           crossorigin="anonymous">
 </head>
 <body>
-<h1>Tạo mới câu hỏi</h1>
-<form action="/questions/create" th:object="${questionContentDto}" method="post">
-
+<h1>Tạo mới du an </h1>
+    <form action="/duAns/create" th:object="${duAnDto}" method="post">
     <div class="mb-3">
-        <label for="title" class="form-label">Tiêu đề:</label>
-        <input type="text" th:field="*{title}" class="form-control" id="title">
-        <small style="color: red" th:if="${#fields.hasErrors()}" th:errors="*{title}"></small>
+        <label for="maDuAn" class="form-label">ma:</label>
+        <input  th:field="*{maDuAn}" class="form-control" id="maDuAn">
+        <small style="color: red" th:if="${#fields.hasErrors()}" th:errors="*{maDuAn}"></small>
+    </div>
+    <div class="mb-3">
+        <label for="tenDuAn" class="form-label">Ten du an:</label>
+        <input  th:field="*{tenDuAn}" class="form-control" id="tenDuAn">
+        <small style="color: red" th:if="${#fields.hasErrors()}" th:errors="*{tenDuAn}"></small>
     </div>
 
+<!--    <div class="mb-3">-->
+<!--        <label class="form-label">khach hang:</label>-->
+<!--        <select  th:field="*{khachHang}" class="form-select" aria-label="Default select example" >-->
+<!--            <option th:each="khachhang:${khachHang}" th:text="${khachhang.tenKhachHang}" th:value="${khachhang.id}"></option>-->
+<!--        </select>-->
+<!--    </div>-->
     <div class="mb-3">
-        <label for="content" class="form-label">Nội dung:</label>
-        <textarea class="form-control" th:field="*{content}" id="content" rows="3"></textarea>
-        <small style="color: red" th:if="${#fields.hasErrors()}" th:errors="*{content}"></small>
+        <label for="tenDoanhNghiep" class="form-label">Ten doanh nghiep:</label>
+        <input class="form-control" th:field="*{doanhNghiepDangKiDuAn}" id="tenDoanhNghiep">
+        <small style="color: red" th:if="${#fields.hasErrors()}" th:errors="*{doanhNghiepDangKiDuAn}"></small>
+    </div>
+    <div class="mb-3">
+        <label for="kinhPhiYeuCau" class="form-label">Kinh phi yeu cau:</label>
+        <input class="form-control"  th:field="*{kinhPhiYeuCau}" id="kinhPhiYeuCau" >
+        <small style="color: red" th:if="${#fields.hasErrors()}" th:errors="*{kinhPhiYeuCau}"></small>
+    </div>
+    <div class="mb-3">
+        <label for="thoiGian" class="form-label">thoi gian:</label>
+        <input class="form-control"type="text" th:field="*{thoiGian}" id="thoiGian" >
+        <small style="color: red" th:if="${#fields.hasErrors()}" th:errors="*{thoiGian}"></small>
+    </div>
+    <div class="mb-3">
+        <label for="ngay" class="form-label">ngay</label>
+        <input class="form-control" type="date" th:field="*{ngay}" id="ngay">
+        <small style="color: red" th:if="${#fields.hasErrors()}" th:errors="*{ngay}"></small>
     </div>
 
-    <div class="mb-3">
-        <label for="questionType" class="form-label">Loại câu hỏi:</label>
-        <select class="form-select" th:field="*{questionType}" id="questionType" required aria-label="Default select example">
-            <option value="">-- Chọn loại câu hỏi --</option>
-            <option th:each="type:${questionType}" th:value="${type.idQuestionType}"
-                    th:text="${type.getQuestionName()}"></option>
-        </select>
-    </div>
+
+
+    <!--    <div class="mb-3">-->
+    <!--        <label for="questionType" class="form-label">Loại câu hỏi:</label>-->
+    <!--        <select class="form-select" th:field="*{questionType}" id="questionType" required aria-label="Default select example">-->
+    <!--            <option value="">&#45;&#45; Chọn loại câu hỏi &#45;&#45;</option>-->
+    <!--            <option th:each="type:${questionType}" th:value="${type.idQuestionType}"-->
+    <!--                    th:text="${type.getQuestionName()}"></option>-->
+    <!--        </select>-->
+    <!--    </div>-->
     <button>Create</button>
 </form>
 </body>

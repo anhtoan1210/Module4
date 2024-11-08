@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+          crossorigin="anonymous">
+</head>
+<body>
+<h1>Tạo mới câu hỏi</h1>
+<form action="/giaoDichs/create" th:object="${giaoDichDto}" method="post">
+
+    <div class="mb-3">
+        <label for="maGiaoDich" class="form-label">ma:</label>
+        <input  th:field="*{maGiaoDich}" class="form-control" id="maGiaoDich">
+        <small style="color: red" th:if="${#fields.hasErrors()}" th:errors="*{maGiaoDich}"></small>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">khach hang:</label>
+        <select  th:field="*{khachHang}" class="form-select" aria-label="Default select example" >
+            <option th:each="khachhang:${khachHang}" th:text="${khachhang.tenKhachHang}" th:value="${khachhang.id}"></option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label for="loaiDichVu" class="form-label">loai:</label>
+        <input class="form-control" th:field="*{loaiDichVu}" id="loaiDichVu">
+        <small style="color: red" th:if="${#fields.hasErrors()}" th:errors="*{loaiDichVu}"></small>
+    </div>
+    <div class="mb-3">
+        <label for="ngayGiaoDich" class="form-label">ngay:</label>
+        <input class="form-control" type="date" th:field="*{ngayGiaoDich}" id="ngayGiaoDich" >
+        <small style="color: red" th:if="${#fields.hasErrors()}" th:errors="*{ngayGiaoDich}"></small>
+    </div>
+    <div class="mb-3">
+        <label for="donGia" class="form-label">gia:</label>
+        <input class="form-control" th:field="*{donGia}" id="donGia" >
+        <small style="color: red" th:if="${#fields.hasErrors()}" th:errors="*{donGia}"></small>
+    </div>
+    <div class="mb-3">
+        <label for="dienTich" class="form-label">dien tich</label>
+        <input class="form-control" th:field="*{dienTich}" id="dienTich">
+        <small style="color: red" th:if="${#fields.hasErrors()}" th:errors="*{dienTich}"></small>
+    </div>
+
+
+
+    <!--    <div class="mb-3">-->
+    <!--        <label for="questionType" class="form-label">Loại câu hỏi:</label>-->
+    <!--        <select class="form-select" th:field="*{questionType}" id="questionType" required aria-label="Default select example">-->
+    <!--            <option value="">&#45;&#45; Chọn loại câu hỏi &#45;&#45;</option>-->
+    <!--            <option th:each="type:${questionType}" th:value="${type.idQuestionType}"-->
+    <!--                    th:text="${type.getQuestionName()}"></option>-->
+    <!--        </select>-->
+    <!--    </div>-->
+    <button>Create</button>
+</form>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</html>
